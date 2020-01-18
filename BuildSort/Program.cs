@@ -34,7 +34,7 @@ namespace BuildSort
 
             var efiespCabinets = Directory.EnumerateFiles(directoryToScan, "microsoft.mobilecore.*.efiesp.cbs_*", SearchOption.AllDirectories);
             var mainosCabinets = Directory.EnumerateFiles(directoryToScan, "microsoft.mobilecore.*.mainos.cbs_*", SearchOption.AllDirectories);
-            var updateosCabinets = Directory.EnumerateFiles(directoryToScan, "microsoft.mobilecore.*.updateos.cbs_*", SearchOption.AllDirectories);
+            var updateosCabinets = Directory.EnumerateFiles(directoryToScan, "microsoft.mobilecore.updateos.cbs_*", SearchOption.AllDirectories);
 
             foreach (var cabinet in efiespCabinets)
             {
@@ -221,7 +221,7 @@ namespace BuildSort
 
             var efiespCabinets = Directory.EnumerateFiles(directoryToScan, "microsoft.mobilecore.*.efiesp.spkg*", SearchOption.AllDirectories);
             var mainosCabinets = Directory.EnumerateFiles(directoryToScan, "microsoft.mobilecore.*.mainos.spkg*", SearchOption.AllDirectories);
-            var updateosCabinets = Directory.EnumerateFiles(directoryToScan, "microsoft.mobilecore.*.updateos.spkg*", SearchOption.AllDirectories);
+            var updateosCabinets = Directory.EnumerateFiles(directoryToScan, "microsoft.mobilecore.updateos.spkg*", SearchOption.AllDirectories);
 
             foreach (var cabinet in efiespCabinets)
             {
